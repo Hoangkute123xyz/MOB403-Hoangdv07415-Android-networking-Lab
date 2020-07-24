@@ -35,4 +35,15 @@
         app:layout_constraintEnd_toEndOf="@+id/btnLab2"
         app:layout_constraintStart_toStartOf="@+id/btnLab2"
         app:layout_constraintTop_toBottomOf="@+id/btnLab2" />
+
+    <Button
+        android:id="@+id/btnLab4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Lab 4"
+        app:layout_constraintEnd_toEndOf="@+id/btnLab3"
+        app:layout_constraintStart_toStartOf="@+id/btnLab3"
+        app:layout_constraintTop_toBottomOf="@+id/btnLab3" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
