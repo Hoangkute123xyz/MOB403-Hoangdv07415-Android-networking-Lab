@@ -202,7 +202,7 @@ class PhotoData {
 
         @SerializedName("photo")
         @Expose
-        var photo: List<Photo>? =
+        var photo: ArrayList<Photo>? =
             null
 
     }

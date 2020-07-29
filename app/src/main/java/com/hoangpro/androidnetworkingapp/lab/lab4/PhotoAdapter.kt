@@ -32,10 +32,14 @@ class PhotoAdapter(context: Context) : RecyclerView.Adapter<PhotoAdapter.ViewHol
         this.photoData = photoData
         notifyDataSetChanged()
     }
+    fun addData(photoData: PhotoData){
+        this.photoData!!.photos!!.photo!!.addAll(photoData.photos!!.photo!!)
+        notifyDataSetChanged()
+    }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val photo = photoData!!.photos!!.photo?.get(position)!!
-        Glide.with(context).load(photo.urlS).into(holder.imgData)
+        Glide.with(context).load(photo.urlS).placeholder(R.drawable.ic_baseline_photo_24).into(holder.imgData)
         holder.itemView.setOnClickListener {
             showDialogDetail(photo)
         }
