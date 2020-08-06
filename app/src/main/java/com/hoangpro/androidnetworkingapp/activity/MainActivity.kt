@@ -10,6 +10,7 @@ import com.hoangpro.androidnetworkingapp.lab.lab3.PostActivity
 import com.hoangpro.androidnetworkingapp.lab.lab4.Lab4Activity
 import com.hoangpro.androidnetworkingapp.lab.lab5.Lab5Activity
 import com.hoangpro.androidnetworkingapp.lab.lab6.Lab6Activity
+import com.hoangpro.androidnetworkingapp.lab.lab7.Lab7Activity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -39,6 +40,9 @@ class MainActivity : AppCompatActivity() {
         }
         btnLab6.setOnClickListener {
             startActivity(Intent(this, Lab6Activity::class.java))
+        }
+        btnLab7.setOnClickListener {
+            startActivity(Intent(this, Lab7Activity::class.java))
         }
     }
 }

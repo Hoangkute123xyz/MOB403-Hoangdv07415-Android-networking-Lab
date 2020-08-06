@@ -12,7 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".lab.lab6.Lab6Activity"></activity>
+        <activity android:name=".lab.lab7.ServerActivity"></activity>
+        <activity android:name=".lab.lab7.ClientActivity" />
+        <activity android:name=".lab.lab7.Lab7Activity" />
+        <activity android:name=".lab.lab6.Lab6Activity" />
         <activity android:name=".lab.lab5.ViewPhotoActivity" />
         <activity android:name=".lab.lab5.Lab5Activity" />
         <activity android:name=".lab.lab4.Lab4Activity" />
