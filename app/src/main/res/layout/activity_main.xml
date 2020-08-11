@@ -76,4 +76,15 @@
         app:layout_constraintStart_toStartOf="@+id/btnLab6"
         app:layout_constraintTop_toBottomOf="@+id/btnLab6" />
 
+    <Button
+        android:id="@+id/btnLab8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Lab 8"
+        app:layout_constraintEnd_toEndOf="@+id/btnLab7"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/btnLab7"
+        app:layout_constraintTop_toBottomOf="@+id/btnLab7" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

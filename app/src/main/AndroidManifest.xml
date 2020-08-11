@@ -12,7 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".lab.lab7.ServerActivity"></activity>
+        <activity android:name=".lab.lab8.UserActivity"></activity>
+        <activity android:name=".lab.lab8.Lab8Task1Activity" />
+        <activity android:name=".lab.lab8.Lab8Activity" />
+        <activity android:name=".lab.lab7.ServerActivity" />
         <activity android:name=".lab.lab7.ClientActivity" />
         <activity android:name=".lab.lab7.Lab7Activity" />
         <activity android:name=".lab.lab6.Lab6Activity" />
@@ -37,6 +40,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <service android:name=".lab.lab8.FCMService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>
